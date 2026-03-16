@@ -3,3 +3,49 @@ numpy>=1.24
 matplotlib>=3.7
 planetary-computer
 pystac-client
+
+# ML
+torch
+torchvision
+transformers
+timm
+einops
+scikit-learn
+xgboost
+lightgbm
+shap
+
+# Data
+pandas
+scipy
+xarray
+
+# API
+fastapi
+uvicorn[standard]
+redis
+arq
+pydantic
+apscheduler
+
+# LLM + Agent
+anthropic
+
+# Viz + Demo
+seaborn
+streamlit
+folium
+streamlit-folium
+plotly
+
+# MLOps
+wandb
+loguru
+python-dotenv
+tqdm
+typer
+pyyaml
+
+# Quality
+pytest
+ruff

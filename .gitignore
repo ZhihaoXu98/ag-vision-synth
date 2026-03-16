@@ -1,23 +1,33 @@
-# Virtual environment
+# Environment & secrets
+.env
 .venv/
 venv/
 env/
 
 # Python
 __pycache__/
+*.pyc
 *.py[cod]
 *.egg-info/
 .eggs/
 dist/
 build/
 
+# Model artifacts
+*.pt
+*.onnx
+models/artifacts/*.pt
+models/artifacts/*.onnx
+
+# Data
+data/raw/
+data/processed/
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
 # IDE / OS
+.vscode/
 .idea/
 .DS_Store
-
-# Optional: uncomment to ignore local VS Code settings
-# .vscode/
